@@ -152,7 +152,7 @@ esac
 if [ "${TRAVIS_DEBIAN_DERIVATIVE:-}" = "" ]
 then
 	case "${TRAVIS_DEBIAN_DISTRIBUTION}" in
-		precise*|trusty*|xenial*|zesty*|artful*|bionic*)
+		precise*|trusty*|xenial*|zesty*|artful*|bionic*|cosmic*)
 			TRAVIS_DEBIAN_DERIVATIVE="ubuntu"
 			;;
 		*)
